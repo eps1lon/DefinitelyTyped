@@ -102,9 +102,8 @@ function useEveryHook(ref: React.Ref<{ id: number }>|undefined): () => boolean {
 
     const [, rerender] = React.useReducer(n => n + 1, 0);
     function handleClick() {
-        // $ExpectError
-        rerender(); // undesired failure
-        rerender(undefined);
+      rerender();
+      rerender(undefined);
     }
 
     // test useRef and its convenience overloads

@@ -799,7 +799,7 @@ declare namespace React {
     type SetStateAction<S> = S | ((prevState: S) => S);
     // this technically does accept a second argument, but it's already under a deprecation warning
     // and it's not even released so probably better to not define it.
-    type Dispatch<A> = (value: A) => void;
+    type Dispatch<A> = A extends unknown ? (value?: A) => void : (value: A) => void;
     // Unlike redux, the actions _can_ be anything
     type Reducer<S, A> = (prevState: S, action: A) => S;
     // types used to try and prevent the compiler from reducing S
