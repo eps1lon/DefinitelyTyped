@@ -100,6 +100,13 @@ function useEveryHook(ref: React.Ref<{ id: number }>|undefined): () => boolean {
     // inline object, to (manually) check if autocomplete works
     React.useReducer(reducer, { age: 42, name: 'The Answer' });
 
+    const [, rerender] = React.useReducer(n => n + 1, 0);
+    function handleClick() {
+        // $ExpectError
+        rerender(); // undesired failure
+        rerender(undefined);
+    }
+
     // test useRef and its convenience overloads
     // $ExpectType MutableRefObject<number>
     React.useRef(0);
