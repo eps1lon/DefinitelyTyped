@@ -57,7 +57,7 @@ declare module '.' {
      *
      * @see https://reactjs.org/docs/concurrent-mode-reference.html#createroot
      */
-    function createRoot(container: Element | Document | DocumentFragment | Comment, options?: RootOptions): Root;
+    function createRoot(container: Container, options?: RootOptions): Root;
 
-    function hydrateRoot(container: Element | Document | DocumentFragment | Comment, options?: HydrationOptions): Root;
+    function hydrateRoot(container: Container, options?: HydrationOptions): Root;
 }
