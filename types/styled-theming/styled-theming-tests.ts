@@ -61,12 +61,3 @@ const button = theme.variants('mode', 'kind', {
             `,
     },
 });
-
-const Button = styled.button`
-    ${button}
-`;
-
-const elementWithoutProp = React.createElement(Button);
-const elementWithCorrectProp = React.createElement(Button, { kind: 'secondary' });
-// $ExpectError
-const element = React.createElement(Button, { kind: 'wrong variant' });
