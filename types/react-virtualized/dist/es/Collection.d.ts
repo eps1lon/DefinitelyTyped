@@ -1,13 +1,6 @@
-import { JSX, PureComponent, Requireable, Validator } from "react";
-import {
-    Alignment,
-    Index,
-    ScrollParams,
-    ScrollPosition,
-    SectionRenderedParams,
-    SizeAndPositionInfo,
-    SizeInfo,
-} from "../../index";
+import * as PropTypes from "prop-types";
+import { JSX, PureComponent } from "react";
+import { Alignment, Index, ScrollParams, ScrollPosition, SectionRenderedParams, SizeInfo } from "../../index";
 
 export type CollectionCellSizeAndPosition = {
     height: number;
@@ -128,12 +121,12 @@ export type CollectionProps = {
  */
 export class Collection extends PureComponent<CollectionProps> {
     static propTypes: {
-        "aria-label": Requireable<string>;
-        cellCount: Validator<number>;
-        cellGroupRenderer: Validator<CollectionCellGroupRenderer>;
-        cellRenderer: Validator<CollectionCellRenderer>;
-        cellSizeAndPositionGetter: Validator<CollectionCellSizeAndPositionGetter>;
-        sectionSize: Requireable<number>;
+        "aria-label": PropTypes.Requireable<string>;
+        cellCount: PropTypes.Validator<number>;
+        cellGroupRenderer: PropTypes.Validator<CollectionCellGroupRenderer>;
+        cellRenderer: PropTypes.Validator<CollectionCellRenderer>;
+        cellSizeAndPositionGetter: PropTypes.Validator<CollectionCellSizeAndPositionGetter>;
+        sectionSize: PropTypes.Requireable<number>;
     };
 
     static defaultProps: {
