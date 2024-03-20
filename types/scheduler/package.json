@@ -1,7 +1,7 @@
 {
-    "private": true,
-    "name": "@types/scheduler",
-    "version": "0.23.9999",
+    "private": false,
+    "name": "types-scheduler",
+    "version": "0.0.0",
     "projects": [
         "https://reactjs.org/"
     ],
