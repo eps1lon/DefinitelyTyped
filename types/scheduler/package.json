@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "types-scheduler",
-    "version": "0.0.0",
+    "version": "19.0.0-alpha.2",
     "projects": [
         "https://reactjs.org/"
     ],
