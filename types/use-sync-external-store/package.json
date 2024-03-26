@@ -1,7 +1,10 @@
 {
     "private": false,
     "name": "types-use-sync-external-store",
-    "version": "19.0.0-alpha.2",
+    "version": "19.0.0-alpha.3",
+    "publishConfig": {
+        "tag": "alpha"
+    },
     "projects": [
         "https://github.com/facebook/react#readme"
     ],

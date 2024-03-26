@@ -1,7 +1,10 @@
 {
     "private": false,
     "name": "types-react-is",
-    "version": "19.0.0-alpha.2",
+    "version": "19.0.0-alpha.3",
+    "publishConfig": {
+        "tag": "alpha"
+    },
     "projects": [
         "https://reactjs.org/"
     ],
