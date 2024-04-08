@@ -1,5 +1,31 @@
 # Changelog
 
+<details>
+<summary>Table of Contents <a name="changelog"></a></summary>
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Changelog](#changelog)
+   * [Try It Out (before React 19.0.0 is released)](#try-it-out-before-react-1900-is-released)
+   * [Migrating](#migrating)
+      + [Quick Explanation](#quick-explanation)
+      + [Full Explanation](#full-explanation)
+   * [Breaking changes](#breaking-changes)
+      + [Removed Types](#removed-types)
+         - [Codemoddable](#codemoddable)
+         - [Not Codemoddable](#not-codemoddable)
+      + [JSX Namespace](#jsx-namespace)
+      + [Changes to Type Parameters](#changes-to-type-parameters)
+         - [`useReducer`](#usereducer)
+         - [`ReactElement`](#reactelement)
+      + [Component types](#component-types)
+      + [Ref cleanup](#ref-cleanup)
+      + [`propTypes` and `defaultProps` statics](#proptypes-and-defaultprops-statics)
+      + [Ref changes](#ref-changes)
+         - [Codemod](#codemod)
+
+<!-- TOC end -->
+</details>
+
 In recent years, the API surface of `@types/react` has gotten larger than we'd like.
 This makes working with React and TypeScript unnecessarily tricky.
 So, we're taking this opportunity to make some small breaking changes to our types, deprecating some and removing others.
