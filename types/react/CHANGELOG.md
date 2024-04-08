@@ -313,6 +313,6 @@ To ease migration due to the required argument for `useRef`, we also added a con
 
 Check out [[RFC] Make all refs mutable](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/64772) for prior discussions about this change.
 
-### Codemod
+#### Codemod
 
 When you apply the [`useRef-required-initial` codemod](https://github.com/eps1lon/types-react-codemod#useref-required-initial) (part of `preset-19`), all `useRef()` calls will be converted to `useRef(undefined)`.
