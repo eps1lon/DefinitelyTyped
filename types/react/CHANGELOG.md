@@ -222,7 +222,9 @@ type Example = ReactElement["props"];
 //   ^? Before, was 'any', now 'unknown'
 ```
 
-If you rely on this behavior, use the `react-element-default-any-props` codemod. You should only need it if you have a lot of legacy code relying on unsound access of element props. Element introspection only exists as an escape hatch and you should make it explicit that your props access is unsound via an explicit `any`.
+If you rely on this behavior, use the [`react-element-default-any-props` codemod](https://github.com/eps1lon/types-react-codemod#react-element-default-any-props).
+You should only need it if you have a lot of legacy code relying on unsound access of element props.
+Element introspection only exists as an escape hatch and you should make it explicit that your props access is unsound via an explicit `any`.
 
 ### Component types
 
