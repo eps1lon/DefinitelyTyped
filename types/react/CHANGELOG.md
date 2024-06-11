@@ -47,12 +47,12 @@ Yarn and PNPM:
 ```json
 {
   "dependencies": {
-    "@types/react": "npm:types-react@alpha",
-    "@types/react-dom": "npm:types-react-dom@alpha"
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   },
   "resolutions": {
-    "@types/react": "npm:types-react@alpha",
-    "@types/react-dom": "npm:types-react-dom@alpha"
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }
 ```
@@ -62,12 +62,12 @@ NPM:
 ```json
 {
   "dependencies": {
-    "@types/react": "npm:types-react@alpha",
-    "@types/react-dom": "npm:types-react-dom@alpha"
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   },
   "overrides": {
-    "@types/react": "npm:types-react@alpha",
-    "@types/react-dom": "npm:types-react-dom@alpha"
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }
 ```
