@@ -42,7 +42,7 @@ export function unstable_now(): number;
 ````
 
 ### Additional Details
- * Last updated: Mon, 25 Apr 2024 01:16:31 GMT
+ * Last updated: Tue, 11 Jun 2024 18:22:00 GMT
  * Dependencies: none
 
 # Credits

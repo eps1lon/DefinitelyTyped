@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "types-react-is",
-    "version": "19.0.0-rc.0",
+    "version": "19.0.0-rc.1",
     "publishConfig": {
         "tag": "rc"
     },
