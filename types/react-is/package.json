@@ -1,18 +1,17 @@
 {
-    "private": true,
-    "name": "@types/react-is",
-    "version": "19.0.9999",
+    "private": false,
+    "name": "types-react-is",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
+    },
     "projects": [
-        "https://reactjs.org/"
+        "https://react.dev"
     ],
     "dependencies": {
         "@types/react": "*"
     },
-    "devDependencies": {
-        "@types/react-dom": "*",
-        "@types/react-is": "workspace:."
-    },
-    "owners": [
+    "contributors": [
         {
             "name": "Avi Vahl",
             "githubUsername": "AviVahl"
@@ -25,5 +24,12 @@
             "name": "Sebastian Silbermann",
             "githubUsername": "eps1lon"
         }
-    ]
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eps1lon/DefinitelyTyped.git",
+        "directory": "types/react-is"
+    }
 }

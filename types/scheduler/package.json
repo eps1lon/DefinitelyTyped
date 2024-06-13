@@ -1,14 +1,14 @@
 {
-    "private": true,
-    "name": "@types/scheduler",
-    "version": "0.23.9999",
-    "projects": [
-        "https://reactjs.org/"
-    ],
-    "devDependencies": {
-        "@types/scheduler": "workspace:."
+    "private": false,
+    "name": "types-scheduler",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
     },
-    "owners": [
+    "projects": [
+        "https://react.dev"
+    ],
+    "contributors": [
         {
             "name": "Nathan Bierema",
             "githubUsername": "Methuselah96"
@@ -17,5 +17,12 @@
             "name": "Sebastian Silbermann",
             "githubUsername": "eps1lon"
         }
-    ]
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eps1lon/DefinitelyTyped.git",
+        "directory": "types/scheduler"
+    }
 }

@@ -1,7 +1,10 @@
 {
-    "private": true,
-    "name": "@types/react",
-    "version": "19.0.9999",
+    "private": false,
+    "name": "types-react",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
+    },
     "projects": [
         "https://react.dev/"
     ],
@@ -45,9 +48,11 @@
             "types": {
                 "default": "./jsx-dev-runtime.d.ts"
             }
-        }
+        },
+        "./package.json": "./package.json"
     },
-    "types": "index",
+    "main": "",
+    "types": "index.d.ts",
     "typesVersions": {
         "<=5.0": {
             "*": [
@@ -55,14 +60,15 @@
             ]
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react"
+    },
     "dependencies": {
         "csstype": "^3.0.2"
     },
-    "devDependencies": {
-        "@types/react": "workspace:.",
-        "@types/trusted-types": "*"
-    },
-    "owners": [
+    "contributors": [
         {
             "name": "Asana",
             "url": "https://asana.com"

@@ -1,15 +1,15 @@
 {
-    "private": true,
-    "name": "@types/react-test-renderer",
-    "version": "19.0.9999",
+    "private": false,
+    "name": "types-react-test-renderer",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
+    },
     "projects": [
-        "https://facebook.github.io/react/"
+        "https://react.dev"
     ],
     "dependencies": {
         "@types/react": "*"
-    },
-    "devDependencies": {
-        "@types/react-test-renderer": "workspace:."
     },
     "owners": [
         {
@@ -40,5 +40,12 @@
             "name": "Sebastian Silbermann",
             "githubUsername": "eps1lon"
         }
-    ]
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eps1lon/DefinitelyTyped.git",
+        "directory": "types/react-test-renderer"
+    }
 }

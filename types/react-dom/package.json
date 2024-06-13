@@ -1,10 +1,15 @@
 {
-    "private": true,
-    "name": "@types/react-dom",
-    "version": "19.0.9999",
+    "private": false,
+    "name": "types-react-dom",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
+    },
     "projects": [
-        "https://reactjs.org"
+        "https://react.dev"
     ],
+    "main": "",
+    "types": "index.d.ts",
     "exports": {
         ".": {
             "types": {
@@ -35,15 +40,13 @@
             "types": {
                 "default": "./test-utils/index.d.ts"
             }
-        }
+        },
+        "./package.json": "./package.json"
     },
     "dependencies": {
         "@types/react": "*"
     },
-    "devDependencies": {
-        "@types/react-dom": "workspace:."
-    },
-    "owners": [
+    "contributors": [
         {
             "name": "Asana",
             "url": "https://asana.com"
@@ -72,5 +75,10 @@
             "name": "Sebastian Silbermann",
             "githubUsername": "eps1lon"
         }
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eps1lon/DefinitelyTyped.git",
+        "directory": "types/react-dom"
+    }
 }

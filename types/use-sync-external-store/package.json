@@ -1,14 +1,14 @@
 {
-    "private": true,
-    "name": "@types/use-sync-external-store",
-    "version": "0.0.9999",
-    "projects": [
-        "https://github.com/facebook/react#readme"
-    ],
-    "devDependencies": {
-        "@types/use-sync-external-store": "workspace:."
+    "private": false,
+    "name": "types-use-sync-external-store",
+    "version": "19.0.0-rc.1",
+    "publishConfig": {
+        "tag": "rc"
     },
-    "owners": [
+    "projects": [
+        "https://react.dev"
+    ],
+    "contributors": [
         {
             "name": "eps1lon",
             "githubUsername": "eps1lon"
@@ -17,5 +17,12 @@
             "name": "Mark Erikson",
             "githubUsername": "markerikson"
         }
-    ]
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eps1lon/DefinitelyTyped.git",
+        "directory": "types/use-sync-external-store"
+    }
 }
