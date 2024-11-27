@@ -2993,6 +2993,7 @@ declare namespace React {
             | string
             | undefined
             | ((formData: FormData) => void)
+            | ((formData: FormData) => Promise<void>)
             | DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_FORM_ACTIONS[
                 keyof DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_FORM_ACTIONS
             ];
